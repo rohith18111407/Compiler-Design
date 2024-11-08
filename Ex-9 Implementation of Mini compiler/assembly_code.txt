@@ -1,0 +1,15 @@
+CMP a,b
+JL E.true
+JMP E.false
+E.true:
+MOV t2,x
+MOV x,t2
+MOV t3,5
+MOV x,t3
+MOV t4,5
+MOV y,t4
+JMP E.end
+E.false:
+MOV y,0
+JMP E.end
+E.end:

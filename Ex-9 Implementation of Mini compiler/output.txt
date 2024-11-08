@@ -1,0 +1,14 @@
+if a < b goto E.true
+goto E.false
+E.true:
+t2 = x + 0
+x = t2
+t3 = 2 + 3
+x = t3
+t4 = 2 + 3
+y = t4
+goto E.end
+E.false:
+y = 0
+goto E.end
+E.end:
